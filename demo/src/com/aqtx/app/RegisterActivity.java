@@ -134,8 +134,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
             verificationLayout.setVisibility(View.GONE);
         } else if ("登录".equals(getTitle())) {
             finish();
-            etUserName.setText("");
-            etUserPwd.setText("");
+           nullRegisterLogin();
 
         } else if ("使用手机号注册".equals(getTitle())) {
             ToolBarOptions options = new ToolBarOptions();
@@ -157,7 +156,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
             loginLayout.setVisibility(View.VISIBLE);
             verificationLayout.setVisibility(View.GONE);
 
-            et_num_login.setText("");
+            nullRegisterForget();
             isNum = false;
         }else if ("填写验证码".equals(getTitle())) {
 
@@ -302,8 +301,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 loginLayout.setVisibility(View.GONE);
                 verificationLayout.setVisibility(View.GONE);
 
-                etUserName.setText("");
-                etUserPwd.setText("");
+                nullRegisterLogin();
 
             }
         });
@@ -315,10 +313,10 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 phoneNum = et_num_login.getText().toString().trim();
                 if (phoneNum.matches(regExp)){
                     DialogMaker.showProgressDialog(RegisterActivity.this,"正在发送验证码");
-                    Log.e(TAG, "onFinish: ..................." );
+//                    Log.e(TAG, "onFinish: ..................." );
                     Map<String,String> map = new HashMap<String, String>();
                     map.put("mobile", phoneNum);
-                    Log.e(TAG, "onFinish2: ..................." );
+//                    Log.e(TAG, "onFinish2: ..................." );
                     HttpManager.getInstance().post(ContantValue.FORGOT_PASSWORD_SENT, map, new StringCallback() {
                         @Override
                         public void onError(Call call, Exception e, int id) {
@@ -333,7 +331,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                             Log.e(TAG, "onFinish3: ..................." );
                             JSONObject jsonObject = JSON.parseObject(response);
                             if (jsonObject != null){
-                                boolean test = true;
+//                                boolean test = true;
                                 if (jsonObject.getString("msg").equals("该手机号未注册")) {
 
 
@@ -351,12 +349,12 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                                     Toast.makeText(RegisterActivity.this, jsonObject.getString("msg"), Toast.LENGTH_SHORT).show();
                                     Toast.makeText(RegisterActivity.this, "请先注册账户", Toast.LENGTH_SHORT).show();
 
-                                    et_num_login.setText("");
+                                    nullRegisterForget();
 
 
-//                                }else if (jsonObject.getString("code").equals("200")){
+                                }else if (jsonObject.getString("code").equals("200")){
 
-                                }else if (test){
+//                                }else if (test){
                                     ToolBarOptions options = new ToolBarOptions();
                                     options.isNeedNavigate = false;
                                     setTitle("填写验证码");
@@ -411,7 +409,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                     countDownTimer.start();
 
 
-                    et_num_login.setText("");
+                    nullRegisterForget();
                 }else {
                     Toast.makeText(RegisterActivity.this, "手机号格式有误", Toast.LENGTH_SHORT).show();
                 }
@@ -433,59 +431,44 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 }else {
                     if (password.equals(password_affirm)){
 
-                        Map<String,String> map = new HashMap<String, String>();
-                        map.put("mobile ",codePhoneNum);
-                        map.put("token",password_affirm);
+                        Map<String,String> map1 = new HashMap<String, String>();
+                        map1.put("mobile",codePhoneNum);
+                        map1.put("token",password_affirm);
 
-                        HttpManager.getInstance().post(ContantValue.FORGOT_PASSWORD_AMEND, map, new StringCallback() {
+                        Log.e(TAG, "onClick: codePhoneNum:"+codePhoneNum+"  token:"+password_affirm);
+                        HttpManager.getInstance().get(ContantValue.FORGOT_PASSWORD_AMEND, map1, new StringCallback() {
                             @Override
                             public void onError(Call call, Exception e, int id) {
+                                Toast.makeText(RegisterActivity.this,"网络有误，请稍后请求", Toast.LENGTH_SHORT).show();
 
                             }
 
                             @Override
                             public void onResponse(String response, int id) {
                                 JSONObject jsonObject = JSON.parseObject(response);
+                                Log.e(TAG, "onClick: jsonObject:"+jsonObject.toJSONString());
                                 boolean test = true;
+                                ToolBarOptions options = new ToolBarOptions();
+                                options.isNeedNavigate = false;
+                                setTitle("登录");
+                                setToolBar(R.id.toolbar, options);
+                                getToolBar().setNavigationIcon(null);
+                                layout_num_login.setVisibility(View.GONE);
+                                registerLayoutAccount.setVisibility(View.GONE);
+                                registerLayoutPhone.setVisibility(View.GONE);
+                                loginLayout.setVisibility(View.VISIBLE);
+                                verificationLayout.setVisibility(View.GONE);
+                                layout_code_amend.setVisibility(View.GONE);
+
+                                isNum = false;
                                 if (jsonObject.getString("code").equals("200")) {
-
-
                                     Toast.makeText(RegisterActivity.this, jsonObject.getString("msg"), Toast.LENGTH_SHORT).show();
-
-                                    ToolBarOptions options = new ToolBarOptions();
-                                    options.isNeedNavigate = false;
-                                    setTitle("登录");
-                                    setToolBar(R.id.toolbar, options);
-                                    getToolBar().setNavigationIcon(null);
-                                    layout_num_login.setVisibility(View.GONE);
-                                    registerLayoutAccount.setVisibility(View.GONE);
-                                    registerLayoutPhone.setVisibility(View.GONE);
-                                    loginLayout.setVisibility(View.VISIBLE);
-                                    verificationLayout.setVisibility(View.GONE);
-                                    layout_code_amend.setVisibility(View.GONE);
-
-                                    isNum = false;
                                     Toast.makeText(RegisterActivity.this, "请重新登录", Toast.LENGTH_SHORT).show();
-                                    et_forget_reset_password.setText("");
-                                    et_forget_reset_password_affirm.setText("");
-//                                }else {
-                                }else if (test){
-                                    Toast.makeText(RegisterActivity.this,jsonObject.getString("msg"), Toast.LENGTH_SHORT).show();
-                                    ToolBarOptions options = new ToolBarOptions();
-                                    options.isNeedNavigate = true;
-                                    setTitle("使用手机号注册");
-                                    setToolBar(R.id.toolbar, options);
-                                    registerLayoutAccount.setVisibility(View.GONE);
-                                    registerLayoutPhone.setVisibility(View.VISIBLE);
-                                    loginLayout.setVisibility(View.GONE);
-                                    verificationLayout.setVisibility(View.GONE);
-                                    layout_num_login.setVisibility(View.GONE);
-                                    layout_code_amend.setVisibility(View.GONE);
-
-                                    Toast.makeText(RegisterActivity.this,"请先注册账户", Toast.LENGTH_SHORT).show();
-                                    et_forget_reset_password.setText("");
-                                    et_forget_reset_password_affirm.setText("");
-
+                                    nullRegisterResetPassword();
+                                }else {
+//                                }else if (test){
+                                    Toast.makeText(RegisterActivity.this,"网络有误，请稍后请求", Toast.LENGTH_SHORT).show();
+                                    nullRegisterResetPassword();
                                 }
                             }
                         });
@@ -499,6 +482,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
 
             }
         });
+        // TODO: 2017/3/15 账号注册界面，已有账号登录按钮
         btnLoginJumpCopy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -511,9 +495,12 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 registerLayoutPhone.setVisibility(View.GONE);
                 loginLayout.setVisibility(View.VISIBLE);
                 verificationLayout.setVisibility(View.GONE);
-                nullRegisterPhone();
+
+                nullRegisterAccount();
+
             }
         });
+//         TODO: 2017/3/15 手机注册界面，账号注册按钮
         btnJumpAccount1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -528,6 +515,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 nullRegisterPhone();
             }
         });
+        // TODO: 2017/3/15 手机注册界面，已有账号登录按钮
         btnLoginJump.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -540,11 +528,12 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 registerLayoutPhone.setVisibility(View.GONE);
                 loginLayout.setVisibility(View.VISIBLE);
                 verificationLayout.setVisibility(View.GONE);
+                nullRegisterPhone();
             }
         });
 
 
-        // TODO: 2017/3/15   跳转到手机号注册
+        // TODO: 2017/3/15   账号注册界面，跳转到手机号注册
 //        跳转到手机号注册
         btnPhoneJump.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -557,6 +546,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 registerLayoutPhone.setVisibility(View.VISIBLE);
                 loginLayout.setVisibility(View.GONE);
                 verificationLayout.setVisibility(View.GONE);
+                nullRegisterAccount();
             }
         });
 //        跳转到账号注册
@@ -574,8 +564,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 registerLayoutPhone.setVisibility(View.VISIBLE);
                 loginLayout.setVisibility(View.GONE);
                 verificationLayout.setVisibility(View.GONE);
-                etUserName.setText("");
-                etUserPwd.setText("");
+                nullRegisterLogin();
 
             }
         });
@@ -590,8 +579,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 } else {
                     login2(userName, userPwd);
                 }
-                etUserName.setText("");
-                etUserPwd.setText("");
+
 
             }
         });
@@ -620,9 +608,9 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
 
                                 JSONObject jsonObject = JSON.parseObject(response);
 //                                String msg = jsonObject.getString("msg");
-//                                if (jsonObject.getString("code").equals("200")){
-                                boolean test = true;
-                                if (test){
+                                if (jsonObject.getString("code").equals("200")){
+//                                boolean test = true;
+//                                if (test){
                                     ToolBarOptions options = new ToolBarOptions();
                                     options.isNeedNavigate = false;
                                     setTitle("重置密码");
@@ -637,7 +625,7 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                                     layout_code_amend.setVisibility(View.VISIBLE);
 
                                     Toast.makeText(RegisterActivity.this, jsonObject.getString("msg"), Toast.LENGTH_SHORT).show();
-                                    etCode.setText("");
+                                    nullVerificationCode();
 
                                 }else if (jsonObject.getString("code").equals("414")){
                                     Toast.makeText(RegisterActivity.this, jsonObject.getString("msg"), Toast.LENGTH_SHORT).show();
@@ -759,10 +747,10 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
                 }
 
                 //验证码清空
-                etCode.setText("");
+                nullVerificationCode();
             }
         });
-        // TODO: 2017/3/15  账号注册
+        // TODO: 2017/3/15  账号注册,注册按钮
 //        账号注册
         btnCommitAccount.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -880,6 +868,8 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
 //                        }
 //                    });
                 }
+
+                nullRegisterAccount();
             }
         });
         // TODO: 2017/3/15 手机号注册界面，注册按钮
@@ -1039,10 +1029,36 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
 
     }
 
+    //清空手机诸恶界面
     private void nullRegisterPhone(){
         etName.setText("");
         etPhone.setText("");
         etPwd.setText("");
+    }
+    //清空账号注册界面
+    private void nullRegisterAccount(){
+        etAccount.setText("");
+        etName1.setText("");
+        etPwd1.setText("");
+        etPwdConfirm.setText("");
+    }
+    //清空登录界面
+    private void nullRegisterLogin(){
+        etUserName.setText("");
+        etUserPwd.setText("");
+    }
+    //清空重置密码界面
+    private void nullRegisterResetPassword(){
+        et_forget_reset_password.setText("");
+        et_forget_reset_password_affirm.setText("");
+    }
+    //清空找回密码界面
+    private void nullRegisterForget(){
+        et_num_login.setText("");
+    }
+    //清空填写验证码界面
+    private void nullVerificationCode(){
+        etCode.setText("");
     }
 
     private void login2(final String userName, final String userPwd) {
@@ -1437,4 +1453,9 @@ public class RegisterActivity extends UI implements View.OnKeyListener {
     }
 
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        nullRegisterLogin();
+    }
 }

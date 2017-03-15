@@ -1,5 +1,9 @@
 [
     {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\filepaths.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\xml\\filepaths.xml"
+    },
+    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\xml\\nrtc_setting_pref.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\xml\\nrtc_setting_pref.xml"
     }

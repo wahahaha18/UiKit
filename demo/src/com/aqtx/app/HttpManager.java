@@ -35,7 +35,9 @@ public class HttpManager {
     public void post(String url, Map<String, String> params, StringCallback callback) {
         OkHttpUtils.post().url(url).params(params).build().execute(callback);
     }
-
+    public void get(String url, Map<String, String> params, StringCallback callback) {
+        OkHttpUtils.get().url(url).params(params).build().execute(callback);
+    }
     /**
      * get请求
      *

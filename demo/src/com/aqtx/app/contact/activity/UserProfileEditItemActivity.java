@@ -147,31 +147,32 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
         }else if (key == UserConstant.KEY_SIGNATURE){
             // TODO: 2017/3/13  "UserProfileEditItemActivity类"个人信息页面：点击部门进入第二个见面时，将自助输入改为spniner下拉选项
             setContentView(R.layout.user_profile_signature);
+            DialogMaker.showProgressDialog(UserProfileEditItemActivity.this,"正在加载中");
             HttpManager.getInstance().get(ContantValue.INDUSTRY_TITLE, new StringCallback() {
                 @Override
                 public void onError(Call call, Exception e, int id) {
+                    DialogMaker.dismissProgressDialog();
                     Toast.makeText(UserProfileEditItemActivity.this, "网络有误请稍后重试", Toast.LENGTH_SHORT).show();
                 }
 
                 @Override
                 public void onResponse(String response, int id) {
+                    DialogMaker.dismissProgressDialog();
 //                    Log.e(TAG, "onResponse: response:"+response);
                     JSONObject jsonObject = JSON.parseObject(response);
                     if (jsonObject.getString("code").equals("200")){
                         List<Section.DataBean> data = JSON.parseArray(jsonObject.getJSONArray("data").toJSONString(), Section.DataBean.class);
-//                        Log.e(TAG, "onResponse: data:"+ data.size());
-                        for (int i = 0; i < data.size(); i++) {
-                            sectionList.add(data.get(i).getName());
-                        }
-                        if (sectionList != null && sectionList.size()>1){
-                            sectionList.remove(0);
-                        }
+                     if (!data.isEmpty()){
+                         findSignature(data);
+                     }
 
+                    }else {
+                        Toast.makeText(UserProfileEditItemActivity.this, "没有获取到数据", Toast.LENGTH_SHORT).show();
                     }
                 }
             });
             Log.e(TAG, "KEY_SIGNATURE: msg2:...................");
-            findSignature();
+
         }
         ToolBarOptions options = new ToolBarOptions();
         setToolBar(com.aqtx.app.R.id.toolbar, options);
@@ -181,18 +182,18 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     }
 
     //初始化“部门标签界面”
-    private void findSignature() {
+    private void findSignature(List<Section.DataBean> data) {
         spinner1 = (Spinner) findViewById(R.id.spinner1);
 //        Button btn_commit_click = (Button) findViewById(R.id.btn_commit_click);
 
         //给spinner先赋一个值，防止空指针
-        sectionList.add("专项组");
-        if (sectionList!=null){
+        for (Section.DataBean dataBean : data) {
+            sectionList.add(dataBean.getName());
+        }
+        if (!sectionList.isEmpty()){
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.user_signature_spinner_adapter,sectionList);
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             spinner1.setAdapter(adapter);
-        }else {
-            Toast.makeText(this, "网络连接异常", Toast.LENGTH_SHORT).show();
         }
 
         spinner_value = sectionList.get(spinner1.getSelectedItemPosition());

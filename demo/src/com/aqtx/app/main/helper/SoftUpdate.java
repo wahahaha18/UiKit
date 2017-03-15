@@ -6,13 +6,16 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Environment;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.widget.ProgressBar;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.aqtx.app.BuildConfig;
 import com.aqtx.app.ContantValue;
 import com.aqtx.app.HttpManager;
 import com.aqtx.app.config.preference.Preferences;
@@ -36,6 +39,7 @@ public class SoftUpdate {
     ProgressBar mProgress;
     ProgressDialog mProgressDialog;
     Context context;
+    private String update;
 
 
     public SoftUpdate(Context context) {
@@ -66,6 +70,7 @@ public class SoftUpdate {
                 int oldVersion = AppUtil.getAppVersionCode(context);
                 if (result.getString("currentversion").compareTo(String.valueOf(oldVersion)) > 0) {
 //                    提示更新
+                    update = result.getString("update");
                     showDialog();
                     Preferences.saveIsUpdate(true);
                 } else {
@@ -95,7 +100,15 @@ public class SoftUpdate {
             public void onResponse(File response, int id) {
                 Log.d("SoftUpdate", response.getAbsolutePath());
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                intent.setDataAndType(Uri.fromFile(response), "application/vnd.android.package-archive");
+                // TODO: 2017/3/15 Android 7.0权限问题
+                if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.N){//7.0
+                    Uri contentUri= FileProvider.getUriForFile(context, BuildConfig.APPLICATION_ID+".fileProvider",response);
+                    intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
+                }else{//6.0
+                  intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intent.setDataAndType(Uri.fromFile(response), "application/vnd.android.package-archive");
+                }
+
                 context.startActivity(intent);
                 mProgressDialog.dismiss();
             }
@@ -135,12 +148,19 @@ public class SoftUpdate {
 
             }
         });
-        builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialogInterface, int i) {
-                dialogInterface.dismiss();
-            }
-        });
+        // TODO: 2017/3/15 判断update==1不隐藏取消：==2 隐藏取消（强制点确定）
+        if (update.equals("1")){
+            builder.setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    dialogInterface.dismiss();
+                }
+            });
+        }else if (update.equals("2")){
+            builder.setCancelable(false);
+        }
+
+
         builder.show();
     }
 

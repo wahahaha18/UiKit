@@ -1052,12 +1052,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\online_people_item.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\\output\\res\\layout\\design_navigation_item_header.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_num_login.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_num_login.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
