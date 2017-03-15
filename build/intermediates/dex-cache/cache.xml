@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\uikit\build\intermediates\bundles\default\libs\fastjson-1.1.34.android.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eef620d9aaf422102f51e417dbc08ffbece1da39">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\fastjson-1.1.34.android_de36be98b69c4509ab0c30f2e4b96db06daea859\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\nim-rts-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="63953d1031a5a45bd0deed2aebe0b5e396255f4f">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-rts-2.8.0_ba92388f14398ffd5cec8683b4c74d4e6e00a06a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\9fba30851b71923b116c643683b7de39dc086e00\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_837292c6f9cb788b4cdcd2068922ed5045ccc6b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.3.1\19047bdb6a4fc00a44124f64ca98e88fc204e7e3\okhttp-3.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.3.1_e0698d6e350f37b908aa654aa8e8a7f363612af4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.7.0_f832cb995cecc5bc61bed8bd74c45078c928d8bd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\nrtc-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fa77907f12ee3263003909481d6dc22d5c9f4f16">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nrtc-sdk_4912815bce4d440e9be715f5ba576a615b04361f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\nim-chatroom-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3fe301f5ad56ce051bcfd269ffdf7fca5a73ebb">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\nim-chatroom-2.8.0_6ffb6abd4470323825af1f595755b2059d14a1a9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fea3e6372e7a73506570e03d81cba0b19c137b3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.gradle\caches\modules-2\files-2.1\com.networkbench.newlens.agent.android\nbs.newlens.agent\2.5.0\571983fd89387eaa4b50c354a109b5423e128650\nbs.newlens.agent-2.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="571983fd89387eaa4b50c354a109b5423e128650">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\nbs.newlens.agent-2.5.0_97256c9b8a3bb98b376a6a08f5e1332206c6c941\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\9ac9f0341cc26b91f1a75efa5ad8b415953a7c50\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2cbc70e74f6800b8efc759a3014d39d094371c82">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c13a0f74367c02a82e7c1d175ea71e34379ad89\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\uikit\build\intermediates\bundles\default\libs\nim-basesdk-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="423769193851b89a1c0618474aad79fc0ab9f206">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-basesdk-2.8.0_4de67df0e8a202f54d78a909d11eaeb046842d20\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\uikit\build\intermediates\bundles\default\libs\nim-lucene-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1af025192cea943b0a00afe24d49da6581dcccb7">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-lucene-2.8.0_e606af698db66654c96f47264d88eb8b8bec19c1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\Android_Location_V1.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="38a2f44a304a66fab0527c0a86e356ddd2cce30d">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_Location_V1.3.1_f0989fb759dc758fb26c75015e67383b58cface9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\uikit\build\intermediates\bundles\default\libs\universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2ef539b6c1a74f529257e59434795e782a5ae40a">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\universal-image-loader-1.9.4_d0ce79d7868d4c17b22ab02f999804058b13443a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\65c0069cc001bfc91f50f8d79b7a35cc9a98baf8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="df451c6f391e3e32022fc964ed87bd57a5869128">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f5ff368b8c05c4a94a72c90b3e86e9ae7a919ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.8.0\5ea7af56cc7c567ed9856d99efb30740e9b17ff\okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.8.0_3c1e7ee93ac2ad2252989b180c02553be84db1c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\AMap_Services_V2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="89ccf8789dad06e5ed2eab33e89d1dfab5226bba">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\AMap_Services_V2.3.1_2ab0c9303d95831e27b849035e7c192dd780dbd2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\Android_2DMap_V2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d0d5d6f4c13f4b1002dcdd6cc79588e8a7ee995f">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\Android_2DMap_V2.4.0_0fc6daf888cb3595c9f379d6042d9d7a90c142d3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\cosinesdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="32c85d6037119ca055b8430a44b8fdb756c73769">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\cosinesdk_8090d0eadd11d6b552a4c2fb1c5a8dd9ca0281fe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\97beb0479e019d3de4f4128147b62d52929c6c7f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c3126c9404ef5e9ad4d45821217e4dd921876428\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\uikit\build\intermediates\bundles\default\libs\nim-avchat-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b27fe16095a3b78c2bdaef9e3d0e871a293f204e">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\8\nim-avchat-2.8.0_bfdbc601986115ef6b7686e8c547ea6b4789516f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_70f9b990f4a71b41a00ac51a7fe3df391e69e186\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\5959258d185febb8c020f939bb16d57a08528cbf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4cbf9dfb0e10cdfe3e7825ab876149e3a5d4093f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_b81fc53baf5d27084378bfb2d736432734b8d3d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\1a0e1613ce8154fd489b19945073018fcb2c71ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a619246be9154909d1d93f5de8618225ddef418">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7679bd04107a52975a3291e9f86d0f6256939503\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\14ea89eeaac3fdd85c10327bee5bf3b029254116\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_602b2f7e4c5fba12454303c8f1f9d8767335869a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_79810612c10ede2f9b85c7034985e6b33d04488d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\c3fab1b4079004807d5cce06620089ac1dc78b47\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0a4b7d5e220bc67cb8f364dd886e0652cf0dfadb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\a26e3674ccb1ab5eea88ba51a694a3428d187f90\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a156b99fc7cc034308f942906b09d32754a4470">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9daa610f7cd7138ace99a534e6fee9c961c6dd67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\5d168ff695474138102bd8d93c99fc3c73bf51b4\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_94eca46555d8ab35ee1a2e4e3f11cd4e6bccd426\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\libs\android-viewbadger.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\2\android-viewbadger_ad08b587472c129f350a7d04c7543785d7e94d88\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cfb4b0ccac5492d6b8a9a373208fada6759b05a2">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6ffd8717ce46cf5107ccef4c3daa4fa1296ebaa4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\a33bfa17f29dc2382f5cd2c925517b3345a7e694\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2176dbc7dd38a01721714694f12cc4f592213885\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\e31e9853496cd961ce599606c013c3b2799ebee8\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="155fef2600f48631a9e9665c0873743b6d24e324">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9ed2c5e8a4883b3baf3f575369f15b4872e4838\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_81c2f37d2c5d73f57014ed5808bbf24ba6d2ece1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\4419630f8d567b3e5018621fa67cc88062e1e72a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7e1c003a7ecd2d735320155993e17847796e57e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\226d3d561948161e786d7c7a4d650b6ae0d4c099\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f26b0a49473911b70b16c5345d866ed2a4f8a8b6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\sun0002\.android\build-cache\69b8599905cab99921a7b231ebe5442feba94845\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="D:\Users\sun0002\AndroidStudioProjects\nim_demo\demo\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7facb55cb02e2c4611d1fabd4f2890ae7633d8d5\classes.dex" />
+    </item>
+
+</items>
