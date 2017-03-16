@@ -372,12 +372,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_image_default.png"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_music_icon_play.png",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_music_icon_play.png"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_messages_list_empty_bg.png"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_music_icon_play.png",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_music_icon_play.png"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\nim_team_member_delete_normal.png",

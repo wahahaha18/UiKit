@@ -47,7 +47,7 @@
                 android:layout_height="50dp"
                 android:gravity="center"
                 android:paddingLeft="10dp"
-                android:text="标题"
+                android:text="部门"
                 android:textSize="15sp" />
 
             <!--TODO 2017/3/13 个人信息页面：点击部门进入第二个见面时，将自助输入改为spniner下拉选项-->

@@ -247,10 +247,11 @@ public class MainActivity extends UI {
 //            case com.aqtx.app.R.id.about:
 //                startActivity(new Intent(MainActivity.this, SettingsActivity.class));
 //                break;
-            case com.aqtx.app.R.id.create_normal_team:
-                ContactSelectActivity.Option option = TeamHelper.getCreateContactSelectOption(null, 50);
-                NimUIKit.startContactSelect(MainActivity.this, option, REQUEST_CODE_NORMAL);
-                break;
+            // TODO: 2017/3/16   隐藏讨论组
+//            case com.aqtx.app.R.id.create_normal_team:
+//                ContactSelectActivity.Option option = TeamHelper.getCreateContactSelectOption(null, 50);
+//                NimUIKit.startContactSelect(MainActivity.this, option, REQUEST_CODE_NORMAL);
+//                break;
             case com.aqtx.app.R.id.create_regular_team:
                 ContactSelectActivity.Option advancedOption = TeamHelper.getCreateContactSelectOption(null, 50);
                 NimUIKit.startContactSelect(MainActivity.this, advancedOption, REQUEST_CODE_ADVANCED);

@@ -24,12 +24,12 @@
         "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\color\\skin_light_actionbar_underline_color.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\color\\skin_light_actionbar_underline_color.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",

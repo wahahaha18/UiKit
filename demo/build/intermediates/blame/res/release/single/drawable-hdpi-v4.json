@@ -356,12 +356,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_team_member_delete_normal.png"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\nim_message_audio_playing_right_blue_bg.9.png",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\nim_message_audio_playing_right_blue_bg.9.png"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\drawable-hdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\nim_message_plus_photo_normal.png",

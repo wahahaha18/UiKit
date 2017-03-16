@@ -1,4 +1,4 @@
-#Wed Mar 15 19:44:41 CST 2017
+#Thu Mar 16 14:00:09 CST 2017
 base.0=D\:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
 renamed.1=classes.dex
 renamed.0=classes2.dex

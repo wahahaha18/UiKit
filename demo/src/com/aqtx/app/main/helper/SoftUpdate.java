@@ -100,12 +100,16 @@ public class SoftUpdate {
             public void onResponse(File response, int id) {
                 Log.d("SoftUpdate", response.getAbsolutePath());
                 Intent intent = new Intent(Intent.ACTION_VIEW);
-                // TODO: 2017/3/15 Android 7.0权限问题
+                // TODO: 2017/3/15 Android 7.0权限问题,下载更新
+                // 由于没有在Activity环境下启动Activity,设置下面的标签
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 if (Build.VERSION.SDK_INT>=Build.VERSION_CODES.N){//7.0
-                    Uri contentUri= FileProvider.getUriForFile(context, BuildConfig.APPLICATION_ID+".fileProvider",response);
+                    Uri contentUri= FileProvider.getUriForFile(context, BuildConfig.APPLICATION_ID+".fileprovider",response);
+                    //添加这一句表示对目标应用临时授权该Uri所代表的文件
+                    intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
                     intent.setDataAndType(contentUri, "application/vnd.android.package-archive");
                 }else{//6.0
-                  intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+
                     intent.setDataAndType(Uri.fromFile(response), "application/vnd.android.package-archive");
                 }
 

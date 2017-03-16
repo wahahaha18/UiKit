@@ -245,10 +245,11 @@ public class MessageFragment extends TFragment implements ModuleProxy {
         messageListPanel.sendReceipt();
     }
 
+    // TODO: 2017/3/16 隐藏 已读标签（MessageFragment）
     /**
      * 收到已读回执
      */
     public void receiveReceipt() {
-        messageListPanel.receiveReceipt();
+//        messageListPanel.receiveReceipt();
     }
 }

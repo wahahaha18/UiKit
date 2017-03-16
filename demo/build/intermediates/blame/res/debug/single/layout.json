@@ -8,12 +8,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\online_people_fragment.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_footer.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\no_disturb_footer.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_rts.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\nim_message_item_rts.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\no_disturb_footer.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\no_disturb_footer.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\action_bar_layout.xml",
@@ -44,24 +44,24 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\chat_room_message_tab.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\chat_room_master_tab.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\chat_room_master_tab.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_register_account.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_register_account.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\icon_list_item.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\icon_list_item.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_register_account.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_register_account.xml"
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_easy_alert_dialog_bottom_button.xml",
@@ -72,12 +72,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_message_item.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\address_toast_layout.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\address_toast_layout.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab.xml",
@@ -88,12 +88,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\black_list_activity.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts_abc_item.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_contacts_abc_item.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_listview_refresh.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_listview_refresh.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_contacts_abc_item.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_contacts_abc_item.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_tab_bottom.xml",
@@ -128,12 +128,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_verification_code.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\group_list_activity.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\group_list_activity.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\sun0002\\.android\\build-cache\\0d1ce7f452d4333a1d2d5447b0c2f9e337dc4d64\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_picker_images_fragment.xml",
@@ -148,24 +148,24 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\session_list.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_register_phone.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_register_phone.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_layout.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_advanced_team_create_layout.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_popup_menu_list_black_item.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_popup_menu_list_black_item.xml"
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_register_phone.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\layout_register_phone.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_announce.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_advanced_team_create_announce.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_menu_dialog.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_menu_dialog.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_advanced_team_create_announce.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_advanced_team_create_announce.xml"
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_popup_menu_list_black_item.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_popup_menu_list_black_item.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\nim_message_item_thumb_progress_bar_text.xml",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\sun0002\\.android\\build-cache\\f1d5f59350f61b2f6654ba87ca5771343f3b0b10\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\activity_welcome.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_buddy.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\activity_add_buddy.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\activity_welcome.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_edit.xml",
@@ -212,12 +212,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\uikit\\build\\intermediates\\bundles\\default\\res\\layout\\nim_message_item_location.xml"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\menu_badge_provider.xml",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\menu_badge_provider.xml"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\progress.xml",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\progress.xml"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\menu_badge_provider.xml",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\layout\\menu_badge_provider.xml"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\debug\\layout\\layout_item_contact_head.xml",

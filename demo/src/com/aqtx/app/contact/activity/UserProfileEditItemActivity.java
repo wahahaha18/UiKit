@@ -161,9 +161,9 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
 //                    Log.e(TAG, "onResponse: response:"+response);
                     JSONObject jsonObject = JSON.parseObject(response);
                     if (jsonObject.getString("code").equals("200")){
-                        List<Section.DataBean> data = JSON.parseArray(jsonObject.getJSONArray("data").toJSONString(), Section.DataBean.class);
+                        List<Section.DataBean> data1 = JSON.parseArray(jsonObject.getJSONArray("data").toJSONString(), Section.DataBean.class);
                      if (!data.isEmpty()){
-                         findSignature(data);
+                         findSignature(data1);
                      }
 
                     }else {
@@ -182,19 +182,30 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     }
 
     //初始化“部门标签界面”
-    private void findSignature(List<Section.DataBean> data) {
+    private void findSignature(final List<Section.DataBean> data1) {
         spinner1 = (Spinner) findViewById(R.id.spinner1);
 //        Button btn_commit_click = (Button) findViewById(R.id.btn_commit_click);
 
         //给spinner先赋一个值，防止空指针
-        for (Section.DataBean dataBean : data) {
+        for (Section.DataBean dataBean : data1) {
             sectionList.add(dataBean.getName());
         }
+
         if (!sectionList.isEmpty()){
             ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.user_signature_spinner_adapter,sectionList);
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             spinner1.setAdapter(adapter);
+
+            if (data != null) {
+                for (int i = 0; i < sectionList.size(); i++) {
+                    if (data.equals(sectionList.get(i))) {
+                        spinner1.setSelection(i,true);
+                    }
+                }
+            }
+
         }
+
 
         spinner_value = sectionList.get(spinner1.getSelectedItemPosition());
         spinner1.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
@@ -223,6 +234,7 @@ public class UserProfileEditItemActivity extends UI implements View.OnClickListe
     private void parseIntent() {
         key = getIntent().getIntExtra(EXTRA_KEY, -1);
         data = getIntent().getStringExtra(EXTRA_DATA);
+        Log.e("data",data+"");
     }
 
     private void setTitles() {

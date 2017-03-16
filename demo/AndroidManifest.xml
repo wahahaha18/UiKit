@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.aqtx.app"
     android:installLocation="auto"
-    android:versionCode="33"
-    android:versionName="3.3">
+    android:versionCode="34"
+    android:versionName="3.4">
 
     <!-- 加入应用需要的权限 -->
     <!-- 网络相关 -->

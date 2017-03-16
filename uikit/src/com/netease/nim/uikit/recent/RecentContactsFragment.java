@@ -575,7 +575,7 @@ public class RecentContactsFragment extends TFragment implements TAdapterDelegat
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Toast.makeText(getActivity(), "data:" + data, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(getActivity(), "data:" + data, Toast.LENGTH_SHORT).show();
         super.onActivityResult(requestCode, resultCode, data);
     }
 }

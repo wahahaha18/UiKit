@@ -268,12 +268,12 @@
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\drawable-hdpi\\message_plus_video_chat_normal.png"
     },
     {
-        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\head_icon_10.png",
-        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_10.png"
-    },
-    {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\login_bg.png",
         "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\drawable-hdpi\\login_bg.png"
+    },
+    {
+        "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\head_icon_10.png",
+        "source": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\res\\drawable-hdpi\\head_icon_10.png"
     },
     {
         "merged": "D:\\Users\\sun0002\\AndroidStudioProjects\\nim_demo\\demo\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\message_plus_file_normal.png",

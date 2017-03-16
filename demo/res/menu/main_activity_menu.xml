@@ -16,10 +16,11 @@
                 android:id="@+id/add_buddy"
                 android:icon="@drawable/menu_add_friend"
                 android:title="@string/add_buddy" />
-            <item
-                android:id="@+id/create_normal_team"
-                android:icon="@drawable/menu_discuss"
-                android:title="@string/create_normal_team" />
+            <!--todo 隐藏讨论组-->
+            <!--<item-->
+                <!--android:id="@+id/create_normal_team"-->
+                <!--android:icon="@drawable/menu_discuss"-->
+                <!--android:title="@string/create_normal_team" />-->
             <item
                 android:id="@+id/create_regular_team"
                 android:icon="@drawable/menu_group"

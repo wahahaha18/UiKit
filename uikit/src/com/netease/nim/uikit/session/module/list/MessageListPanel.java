@@ -1028,15 +1028,15 @@ public class MessageListPanel implements TAdapterDelegate {
             UserInfoHelper.unregisterObserver(uinfoObserver);
         }
     }
-
+// TODO: 2017/3/16 隐藏 已读标签（MessageListPanel）
     /**
      * 收到已读回执（更新VH的已读label）
      */
 
-    public void receiveReceipt() {
-        updateReceipt(items);
-        refreshMessageList();
-    }
+//    public void receiveReceipt() {
+//        updateReceipt(items);
+//        refreshMessageList();
+//    }
 
     public void updateReceipt(final List<IMMessage> messages) {
         for (int i = messages.size() - 1; i >= 0; i--) {

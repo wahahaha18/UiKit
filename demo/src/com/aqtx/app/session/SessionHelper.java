@@ -72,7 +72,7 @@ public class SessionHelper {
     private static final int ACTION_SEARCH_MESSAGE = 1;
     private static final int ACTION_CLEAR_MESSAGE = 2;
 
-    private static SessionCustomization p2pCustomization;
+    private static SessionCustomization    p2pCustomization;
     private static SessionCustomization teamCustomization;
     private static SessionCustomization myP2pCustomization;
 
@@ -416,10 +416,12 @@ public class SessionHelper {
         }
     };
 
+    // TODO: 2017/3/16 在聊天界面toolbar中的历史按钮中将云消息记录隐藏
     private static List<PopupMenuItem> getMoreMenuItems(Context context, String sessionId, SessionTypeEnum sessionTypeEnum) {
         List<PopupMenuItem> moreMenuItems = new ArrayList<PopupMenuItem>();
-        moreMenuItems.add(new PopupMenuItem(context, ACTION_HISTORY_QUERY, sessionId,
-                sessionTypeEnum, DemoCache.getContext().getString(com.aqtx.app.R.string.message_history_query)));
+        //云消息记录
+//        moreMenuItems.add(new PopupMenuItem(context, ACTION_HISTORY_QUERY, sessionId,
+//                sessionTypeEnum, DemoCache.getContext().getString(com.aqtx.app.R.string.message_history_query)));
         moreMenuItems.add(new PopupMenuItem(context, ACTION_SEARCH_MESSAGE, sessionId,
                 sessionTypeEnum, DemoCache.getContext().getString(com.aqtx.app.R.string.message_search_title)));
         moreMenuItems.add(new PopupMenuItem(context, ACTION_CLEAR_MESSAGE, sessionId,

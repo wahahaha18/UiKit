@@ -187,7 +187,7 @@ public class P2PMessageActivity extends BaseMessageActivity {
 
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        Toast.makeText(this, "data:" + data, Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "data:" + data, Toast.LENGTH_SHORT).show();
         super.onActivityResult(requestCode, resultCode, data);
     }
 

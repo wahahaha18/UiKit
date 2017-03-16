@@ -77,15 +77,16 @@ public class MessageInfoActivity extends UI {
             }
         });
 
-        ((TextView)findViewById(com.aqtx.app.R.id.create_team_layout).findViewById(com.aqtx.app.R.id.textViewName)).setText(com.aqtx.app.R.string.create_normal_team);
-        HeadImageView addImage = (HeadImageView) findViewById(com.aqtx.app.R.id.create_team_layout).findViewById(com.aqtx.app.R.id.imageViewHeader);
-        addImage.setBackgroundResource(com.aqtx.app.R.drawable.nim_team_member_add_selector);
-        addImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                createTeamMsg();
-            }
-        });
+        // TODO: 2017/3/16 隐藏创建讨论组1
+//        ((TextView)findViewById(com.aqtx.app.R.id.create_team_layout).findViewById(com.aqtx.app.R.id.textViewName)).setText(com.aqtx.app.R.string.create_normal_team);
+//        HeadImageView addImage = (HeadImageView) findViewById(com.aqtx.app.R.id.create_team_layout).findViewById(com.aqtx.app.R.id.imageViewHeader);
+//        addImage.setBackgroundResource(com.aqtx.app.R.drawable.nim_team_member_add_selector);
+//        addImage.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                createTeamMsg();
+//            }
+//        });
 
         ((TextView)findViewById(com.aqtx.app.R.id.toggle_layout).findViewById(com.aqtx.app.R.id.user_profile_title)).setText(com.aqtx.app.R.string.msg_notice);
         switchButton = (SwitchButton) findViewById(com.aqtx.app.R.id.toggle_layout).findViewById(com.aqtx.app.R.id.user_profile_toggle);

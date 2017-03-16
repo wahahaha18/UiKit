@@ -30,12 +30,12 @@
             android:id="@+id/user_layout"
             layout="@layout/nim_team_member_item" />
 
-        <include
-            android:id="@+id/create_team_layout"
-            layout="@layout/nim_team_member_item"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="15dp" />
+        <!--<include-->
+            <!--android:id="@+id/create_team_layout"-->
+            <!--layout="@layout/nim_team_member_item"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="15dp" />-->
     </LinearLayout>
 
     <LinearLayout

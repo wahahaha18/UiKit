@@ -102,9 +102,6 @@ public class ContactListFragment extends MainTabFragment {
                             updateUnreadNum(item.getUnread());
                         }
                     });
-                } else if (item == NORMAL_TEAM) {
-                    funcName.setText("讨论组");
-                    image.setImageResource(R.drawable.ic_secretary);
                 } else if (item == ADVANCED_TEAM) {
                     funcName.setText("高级群");
                     image.setImageResource(R.drawable.ic_advanced_team);
@@ -115,6 +112,11 @@ public class ContactListFragment extends MainTabFragment {
                     funcName.setText("我的电脑");
                     image.setImageResource(R.drawable.ic_my_computer);
                 }
+                // TODO: 2017/3/16   隐藏讨论组1
+//                else if (item == NORMAL_TEAM) {
+//                    funcName.setText("讨论组");
+//                    image.setImageResource(R.drawable.ic_secretary);
+//                }
                 // TODO: 2016/12/7  /添加新的朋友选项
                 else if (item == NEW_FRIEND) {
                     funcName.setText("新的朋友");
@@ -154,7 +156,8 @@ public class ContactListFragment extends MainTabFragment {
             // TODO: 2016/12/7 添加“新的朋友”选项
             items.add(NEW_FRIEND);
 //            items.add(VERIFY);
-            items.add(NORMAL_TEAM);
+            // TODO: 2017/3/16   隐藏讨论组3
+//            items.add(NORMAL_TEAM);
             items.add(ADVANCED_TEAM);
             items.add(BLACK_LIST);
 
@@ -168,8 +171,6 @@ public class ContactListFragment extends MainTabFragment {
             Log.d("FuncItem", "item:" + item);
             if (item == VERIFY) {
                 SystemMessageActivity.start(context);
-            } else if (item == NORMAL_TEAM) {
-                TeamListActivity.start(context, ItemTypes.TEAMS.NORMAL_TEAM);
             } else if (item == ADVANCED_TEAM) {
                 TeamListActivity.start(context, ItemTypes.TEAMS.ADVANCED_TEAM);
             } else if (item == MY_COMPUTER) {
@@ -179,6 +180,10 @@ public class ContactListFragment extends MainTabFragment {
             } else if (item == NEW_FRIEND) {
                 AddFriendActivity.start(context);
             }
+            // TODO: 2017/3/16   隐藏讨论组2
+//            else if (item == NORMAL_TEAM) {
+//                TeamListActivity.start(context, ItemTypes.TEAMS.NORMAL_TEAM);
+//            }
         }
     }
 

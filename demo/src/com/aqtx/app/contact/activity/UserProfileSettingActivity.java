@@ -243,6 +243,7 @@ public class UserProfileSettingActivity extends UI implements View.OnClickListen
             case com.aqtx.app.R.id.signature_layout:
                 UserProfileEditItemActivity.startActivity(UserProfileSettingActivity.this, UserConstant.KEY_SIGNATURE,
                         signatureText.getText().toString());
+
                 break;
             case R.id.nim_account_layout:
                 String text = nimAccountText.getText().toString().trim();
